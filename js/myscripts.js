@@ -1,1 +1,2 @@
-alert("Hola al JS");
+//alert("Hola al JS");
+console.log("chavaleria!!");

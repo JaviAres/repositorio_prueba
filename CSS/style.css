@@ -1,0 +1,18 @@
+h1 {
+color:blue;
+text-transform:uppercase;
+}
+
+h2{
+    color:red;
+    text-transform:uppercase;
+}
+
+h3{
+    color:green;
+    text-transform:uppercase;
+}
+
+body{
+    margin-left:700px;
+}
