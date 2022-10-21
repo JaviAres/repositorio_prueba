@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="
+https://p19-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/bbe6a9ea4edc2241d5b096380d1f4b0d~c5_720x720.jpeg?x-expires=1666396800&x-signature=afRxcCFNPfoBegSpyiI6yoV4i%2FI%3D" alt="Smiley" width="32" height="32">
+
+<p>The function bigImg() is triggered when the user moves the mouse pointer over the image.</p>
+<p>The function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
+
+<script>
+function bigImg(x) {
+  x.style.height = "1000px";
+  x.style.width = "1000px";
+}
+
+function normalImg(x) {
+  x.style.height = "5px";
+  x.style.width = "5px";
+}
+</script>
+
+</body>
+</html>

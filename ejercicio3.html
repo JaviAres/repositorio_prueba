@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This example demonstrates how to assign an "onchange" event to an input element.</p>
+
+Enter your name: <input type="text" id="fname" onchange="myFunction()">
+
+<p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+
+
+
+<p>Introuduzca un	valor	superior	a	0:</p>
+<form	action="#"	method="get">
+<input	type="text"	name="dato"	onchange="validar(this)"/>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+}
+
+function validar(this){
+    console.log(this);
+}
+</script>
+
+
+</body>
+</html>
+
+
+
